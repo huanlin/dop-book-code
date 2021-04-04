@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ch01.Ex01_BreakingPrinciple1
 {
-    class Customer
+    public class Customer
     {
         public Customer(string firstName, string lastName, int numOfOrders)
         {
@@ -23,7 +23,7 @@ namespace Ch01.Ex01_BreakingPrinciple1
         public bool IsVip() => NumOfOrders > 100;
     }
 
-    class CustomerDemo
+    public class CustomerDemo
     {
         public static void Run()
         {

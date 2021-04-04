@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ch01.Ex02_AdheringPrinciple1
 {
-    class CustomerData
+    public class CustomerData
     {
         public CustomerData(string firstName, string lastName, int numOfOrders)
         {

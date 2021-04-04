@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ch01.Ex02_AdheringPrinciple1
 {
-    class CustomerRating
+    public class CustomerRating
     {
         public static bool IsVip(dynamic entity)
         {
-            return entity.NumOfOrders > 100;
+            return entity.NumOfOrders > 100;            
         }
     }
 }
